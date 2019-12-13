@@ -1,24 +1,23 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is the Ruby on Rails projet for creating active records
 
-Things you may want to cover:
+## Getting started
 
-* Ruby version
+To get started with the app, clone the repo and then install the needed gems:
 
-* System dependencies
+$ bundle install --without production
+Next, migrate the database:
 
-* Configuration
+$ rails db:migrate
+Finally, run the test suite to verify that everything is working correctly:
 
-* Database creation
+$ rails test
+If the test suite passes, you'll be ready to run the app in a local server:
 
-* Database initialization
+$ rails server
 
-* How to run the test suite
+## Authors
+Salum Habibu https://github.com/IBUNHABIBU
+Maya Elfeky https://github.com/maya88en/
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
