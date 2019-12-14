@@ -1,6 +1,7 @@
 # README
 
 This is the Ruby on Rails projet for creating active records . This is performed by rails console
+by creating user , post and comment
 
 ## Getting started
 
