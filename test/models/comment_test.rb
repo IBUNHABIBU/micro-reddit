@@ -9,11 +9,9 @@ class CommentTest < ActiveSupport::TestCase
     @post = Post.new(title:"Masanja", body:"Kaadhafi  king",user:@user)
     @comment = Comment.new(content:"Kaadhafi  king", user:@user, post:@post)
   end
-
   test "should be valid" do
     assert @comment.valid?
   end
-
   test "content should be present" do
     @comment.content = nil
     assert_not @comment.valid?
