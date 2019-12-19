@@ -56,7 +56,11 @@ GEM
     bootstrap-sass (3.3.7)
       autoprefixer-rails (>= 5.2.1)
       sass (>= 3.3.4)
+<<<<<<< HEAD
     builder (3.2.3)
+=======
+    builder (3.2.4)
+>>>>>>> 0850ef6fe6dd1b3bd098f9ea3d720616840ea4a5
     byebug (11.0.1)
     capybara (3.29.0)
       addressable
@@ -171,7 +175,7 @@ GEM
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
     sqlite3 (1.4.1)
-    thor (0.20.3)
+    thor (1.0.1)
     thread_safe (0.3.6)
     tilt (2.0.10)
     turbolinks (5.2.1)
